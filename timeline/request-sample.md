@@ -18,3 +18,17 @@
 |X-Line-Carrier |{$carrierCode} |Only phone? |
 
 
+# Cheat sheets
+
+* * *
+### POST /api/v39/post/create.json
+  
+#### GET PARAMS
+homeId = {$your_mid}  
+sourceType = 'TIMELINE'
+
+#### POST PARAMS
+    {'postInfo': {'readPermission': {'type': 'ALL'}}, 'sourceType': 'TIMELINE', 'contents': {'text': text}}
+    
+readPermission->type = __ALL__ or __FRIEND__
+
