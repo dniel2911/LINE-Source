@@ -11,7 +11,11 @@
 
 ↓ You must need ↓
 ![headersTemplate](https://i.imgur.com/dtiKuyU.png "headersTemplate")
-
+  
+  
+"X-Line-Carrier" → I don't know. ex)__51089, 1-0__
+"X-Timeline-WebVersion" → ex)__1.4.2__
+"X-Line-AcceptLanguage" → ex)__en__
 
 
 
